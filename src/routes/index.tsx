@@ -3,6 +3,7 @@ import RootLayout from '../Component/layouts/RootLayout'
 import UnProtectedLayout from '../Component/layouts/UnProtectedLayout'
 import { AuthPaths, ProtectedPaths } from './paths'
 import ProtectedLayout from '../Component/layouts/ProtectedLayout'
+import Home from '../views/Home'
 
 const Navigation = () => {
 
@@ -23,6 +24,7 @@ const Navigation = () => {
                             <Route Component={route.component} path={route.path} />
                         ))}
                     </Route>
+                    <Route Component={Home} path='/home'/>
                 </Route>
             </Routes>
         </>
