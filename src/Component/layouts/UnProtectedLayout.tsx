@@ -2,7 +2,7 @@ import { Navigate, Outlet } from "react-router-dom";
 
 const UnProtectedLayout = () => {
 
-    const Authenticated = true;
+    const Authenticated = false;
 
     return !Authenticated ? <Outlet/> : <Navigate to={'/'}/>
 }
