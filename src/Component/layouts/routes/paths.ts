@@ -1,5 +1,5 @@
-import Signin from "../views/Auth/Signin"
-import Home from "../views/Home"
+import Signin from "../../../views/Auth/Signin"
+import Home from "../../../views/Home"
 
 export const ProtectedPaths = [
     {

@@ -1,6 +1,6 @@
 import { NextUIProvider } from '@nextui-org/react'
 import { BrowserRouter } from 'react-router-dom'
-import Navigation from './routes'
+import Navigation from './Component/layouts/routes'
 
 function App() {
   return (

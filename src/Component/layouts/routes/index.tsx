@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom'
-import RootLayout from '../Component/layouts/RootLayout'
-import UnProtectedLayout from '../Component/layouts/UnProtectedLayout'
+import RootLayout from '../RootLayout'
+import UnProtectedLayout from '../UnProtectedLayout'
 import { AuthPaths, ProtectedPaths } from './paths'
-import ProtectedLayout from '../Component/layouts/ProtectedLayout'
-import Home from '../views/Home'
+import ProtectedLayout from '../ProtectedLayout'
+import Home from '../../../views/Home'
 
 const Navigation = () => {
 
