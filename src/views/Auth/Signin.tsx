@@ -1,5 +1,5 @@
 import { Button, Input, Image } from "@nextui-org/react"
-import signInImg from "../../../public/sigin.png"
+import signInImg from "/sigin.png"
 import { Field, Form, Formik, FormikHelpers, FormikValues } from "formik"
 import * as Yup from 'yup'
 
